@@ -5,7 +5,7 @@ ExtJS package to use [Material Design Iconic Font](http://zavoloklom.github.io/m
 Current version of Material Design Icons: 2.2.0
 
 ## Adding package to workspace or app
-Download [material-icon.pkg]() from releases [1.0.0]
+Download [material-icon.pkg](https://github.com/RichardStyles/ExtJS-Material-Icons/releases/) from releases [1.0.0]
 
 copy: .pkg file to workspace of your project
 
@@ -36,7 +36,7 @@ Becomes
 ```
 x-mi mi-rss
 ```
-All classes should be prefixed using ```x-mi``` and the icon specific css class should begin with ```mi-```.
+All classes should be prefixed using ```x-mi``` and the icon specific css class should begin with ```mi-``` instead of ```zmdi-```.
 
 #### Example 
 
