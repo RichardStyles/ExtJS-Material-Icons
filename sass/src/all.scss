@@ -1,0 +1,10 @@
+// All rule-generating imports go here vs in etc/all.scss so that they will
+// cascade after the framework rules. 
+@import "../etc/all.scss";
+
+// The "x-mi" class should be used in Ext JS applications instead
+// of "mi".  The "material-icons" class sets some properties that may collide
+// mith theme properties, whereas "x-mi" sets only the font-family.
+.#{$prefix}mi:before {
+    font-family: #{$mi-font-family} !important;
+}
